@@ -53,7 +53,7 @@ public class PersistentDurationAsMilliseconds implements UserType, Serializable 
             return null;
         }
 
-        // This comment is more important
+        // This comment is the most important
         return new Duration(b.longValue());
     }
 
