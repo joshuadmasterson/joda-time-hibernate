@@ -29,7 +29,7 @@ import org.joda.time.DateTime;
 /**
  * Persist {@link org.joda.time.DateTime} via hibernate.
  * 
- * @author Mario Ivankovits (mario@ops.co.at) and Josh M.
+ * @author Mario Ivankovits (mario@ops.co.at) and Josh Masterson
  */
 public class PersistentDateTime implements EnhancedUserType, Serializable {
 
